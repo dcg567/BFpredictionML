@@ -26,7 +26,7 @@ Algorithm Implementation:
 I implemented two regression algorithms: K-Nearest Neighbors (KNN) and Decision Tree.
 KNN: I selected this algorithm due to its simplicity and interpretability. After experimenting with various values for 
 𝑘
-k, I found that 
+k, I found that
 𝑘
 =
 5
