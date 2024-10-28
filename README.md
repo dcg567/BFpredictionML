@@ -1,4 +1,4 @@
-#Body Fat Percentage Prediction Using Machine Learning
+**Body Fat Percentage Prediction Using Machine Learning**
 
 The project aimed to develop algorithms to predict body fat percentage based on various body measurements, leveraging machine learning techniques to understand the relationships between physical attributes and body fat.
 
