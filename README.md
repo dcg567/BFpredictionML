@@ -24,26 +24,23 @@ Central Tendency Measures: Calculated mean, median, and mode to understand the d
 Algorithm Implementation:
 
 I implemented two regression algorithms: K-Nearest Neighbors (KNN) and Decision Tree.
-KNN: I selected this algorithm due to its simplicity and interpretability. After experimenting with various values for 
-𝑘
-k, I found that
-𝑘
-=
-5
-k=5 provided the best accuracy for my dataset.
-Decision Tree: Although simpler and more interpretable, it performed slightly worse than KNN. I set the random state to ensure reproducibility.
+
+**KNN:** I selected this algorithm due to its simplicity and interpretability. After experimenting with various values for k, I found that 𝑘 = 5  provided the best accuracy for my dataset.
+
+**Decision Tree:** Although simpler and more interpretable, it performed slightly worse than KNN. I set the random state to ensure reproducibility.
 Model Training and Testing:
 
 I split the dataset into 80% for training and 20% for testing to evaluate the model’s performance.
 I assessed the accuracy of both algorithms based on their predictions compared to actual values.
-Findings
+
+**Findings**
 KNN Results:
 The KNN algorithm achieved an average accuracy of 69.67%, correctly predicting body fat percentages for approximately 35 out of 50 test instances. This result was encouraging, demonstrating that the algorithm learned effectively from the training data.
 
 Decision Tree Results:
 The Decision Tree algorithm yielded a slightly lower accuracy of 61.87%. While it provided insights into the decision-making process, it did not outperform the KNN algorithm in this scenario.
 
-Lessons Learned:
+**Lessons Learned:**
 
 I gained valuable experience in data cleaning, algorithm selection, and implementation.
 The importance of understanding data relationships was highlighted, as KNN performed better with the dataset's characteristics.
